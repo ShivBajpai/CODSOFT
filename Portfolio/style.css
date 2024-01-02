@@ -1,0 +1,204 @@
+  * {
+
+    box-sizing: border-box;
+
+    margin: 0px;
+
+    font-family: sans-serif;
+  }
+
+  main {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+
+  .gif {
+    background-image: url(./Gifs/AboutMe.gif);
+    background-position: left;
+    background-size: 20%;
+    background-repeat: no-repeat;
+
+  }
+
+  .box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 2px 3px black;
+    transition: 0.2s ease-in-out;
+  }
+
+  .box {
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    min-width: 30%;
+    max-width: 500px;
+    height: auto;
+    text-align: left;
+    overflow: auto;
+    align-self: center;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: white;
+    ;
+  }
+
+  .big {
+    font-size: 50px;
+  }
+
+  .big1 {
+    padding: 0px 0px 0px 100px;
+    font-size: 25px;
+  }
+
+  .big2 {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 50px;
+    -webkit-box-align: center;
+  }
+
+  header {
+    min-height: 150px;
+    background-image: linear-gradient(90deg, #b61616, #fed90f);
+
+    color: white;
+
+
+    padding: 20px;
+
+  }
+
+
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+
+    background-image: linear-gradient(90deg, #b61616, #fed90f);
+
+    background-clip: text;
+
+    -webkit-text-stroke-color: black;
+
+    -webkit-text-stroke-width: 1px;
+
+    -webkit-background-clip: text;
+
+    font-family: sans-serif;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+  }
+
+  .color1 {
+    background-image: linear-gradient(45deg, #0c74e4, #019d61);
+    border-radius: 15px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
+    -webkit-text-fill-color: #d4ff00;
+  }
+
+
+
+  .color2 {
+    background-image: linear-gradient(45deg, #0fbd24, #e05a00);
+    border-radius: 20px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
+    -webkit-text-fill-color: #d4ff00;
+  }
+
+  .color3 {
+    background-image: linear-gradient(45deg, #0011ff, #51ff00);
+    border-radius: 20px;
+    -webkit-padding-start: 10px;
+    -webkit-padding-end: 10px;
+    -webkit-text-fill-color: #d4ff00;
+  }
+
+  .colour {
+    color: #007deb
+  }
+
+  .box1 {
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    min-width: 30%;
+    max-width: 700px;
+    height: auto;
+    text-align: left;
+    overflow: auto;
+    align-self: center;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: white;
+  }
+
+  .box1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 2px 3px black;
+    transition: 0.25s ease-in-out;
+  }
+
+  .down {
+    background-color: black;
+    height: 50px;
+  }
+
+  .box3 {
+
+    background-color: white;
+  }
+
+
+  main {
+    padding: 0px 0px 0px 0px;
+    background-image: url(./images/background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+  }
+
+  @media only screen and (min-width: 350px) and (max-width: 600px) {
+    .gif {
+      background-color: white;
+    }
+
+    .color1 {
+      border-radius: 0px;
+    }
+
+    .color2 {
+      border-radius: 0px;
+    }
+
+    .color3 {
+      border-radius: 0px;
+    }
+
+    .body {
+      font-size: 5px;
+    }
+
+  }
+
+  @media only screen and (min-width: 650px) {
+    h1 {
+      font-size: 80px;
+      -webkit-text-stroke: 2px black;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      h1 {
+        font-size: 90px;
+        -webkit-text-stroke: 2px black;
+      }
+    }
